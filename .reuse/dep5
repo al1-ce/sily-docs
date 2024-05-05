@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sily-docs
+Upstream-Contact: Alisa Lain <al1-ce@null.net>
+Source: https://github.com/al1-ce/sily-docs
+
+Files: modules/* _sidebar.md index.html prism.css style.css README.md
+Copyright: (C) 2024 Alisa Lain <al1-ce@null.net>
+License: GPL-3.0-or-later
+
+Files: .github/* .gitignore
+Copyright: (C) 2024 Alisa Lain <al1-ce@null.net>
+License: CC0-1.0
+
+Files: .todo.md AUTHORS.md justfile
+Copyright: (C) 2024 Alisa Lain <al1-ce@null.net>
+License: CC0-1.0
+

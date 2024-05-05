@@ -1,0 +1,129 @@
+:root {
+    --bg:      #282828;
+    --gray:    #928374;
+    --brgray:  #a89984;
+    --fg:      #ebdbb2;
+    --red:     #cc231d;
+    --bred:    #fb4934;
+    --green:   #98971a;
+    --bgreen:  #b8bb26;
+    --yellow:  #d79921;
+    --byellow: #fabd2f;
+    --blue:    #458588;
+    --bblue:   #83a598;
+    --purple:  #b16286;
+    --bpurple: #d3869b;
+    --aqua:    #689d6a;
+    --baqua:   #8ec07c;
+    --orange:  #d65d0e;
+    --borange: #fe8019;
+    --bg0_h:   #1d2021; /* bg0 hard */
+    --bg0:     #282828;
+    --bg0_s:   #32302f; /* bg0 soft */
+    --bg1:     #3c3836;
+    --bg2:     #504945;
+    --bg3:     #665c54;
+    --bg4:     #7c6f64;
+    --bg5:     #928374;
+    --fg4:     #a89984;
+    --fg3:     #bdae93;
+    --fg2:     #d5c4a1;
+    --fg1:     #ebdbb2;
+    --fg0:     #fbf1c7;
+
+    --mono-hue        : 113;
+    --mono-saturation : 0%;
+
+    /* Monochrome shades (darker) and tints (lighter) */
+    --mono-shade3     : var(--fg1); /* #333333 */
+    --mono-shade2     : var(--fg2); /* #4d4d4d */
+    --mono-shade1     : var(--fg4); /* #666666 */
+    --mono-base       : var(--bg4); /* #808080 */
+    --mono-tint1      : var(--bg2); /* #b3b3b3 */
+    --mono-tint2      : var(--bg0_s); /* #e3e3e3 */
+    --mono-tint3      : var(--bg0); /* #f7f7f7 */
+
+    /* Theme */
+    --theme-hue       : 204;
+    --theme-saturation: 90%;
+    --theme-lightness : 45%;
+    --theme-color     : hsl(var(--theme-hue), var(--theme-saturation), var(--theme-lightness));
+
+    --base-background-color: var(--bg0);
+    --base-color           : var(--fg1);
+    --base-font-family     : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --base-font-size       : 16px;
+    --base-font-weight     : normal;
+    --base-letter-spacing  : ;
+    --base-line-height     : 1.7;
+
+    --code-theme-background             : var(--bg0_s);
+    --code-theme-text                   : var(--fg1);
+
+    --mark-color: var(--fg1);
+    --mark-background: var(--bg3);
+
+    --blockquote-border-color: var(--bblue);
+
+    --link-color: var(--bblue);
+
+    --notice-background: var(--bg1);
+    --notice-important-background: #2e2222ff;
+    --notice-important-border-color: var(--red);
+    --notice-tip-background: #222e2eff;
+    --notice-tip-border-color: var(--blue);
+
+    --sidebar-nav-link-color--active: var(--bblue);
+    --sidebar-nav-link-border-color--active: var(--bblue);
+    --sidebar-name-color: var(--bblue);
+    --theme-color: var(--bblue);
+
+    --copycode-background: var(--bg0_s);
+    --copycode-color: var(--fg2);
+
+    --search-input-background-color: var(--bg0);
+    --search-background: var(--bg0);
+    --search-input-border-color: var(--bg0_s);
+    --search-input-color: var(--fg1);
+    --search-input-placeholder-color: var(--fg3);
+    --search-clear-icon-color1: var(--bg2);
+    --search-clear-icon-color2: var(--fg3);
+    --search-result-keyword-background: var(--bg0);
+    --search-result-keyword-color: var(--baqua);
+    --search-result-keyword-margin: 0;
+    --search-result-keyword-padding: 0;
+
+    --search-input-background-image: url("data:image/svg+xml,%3Csvg height='20px' width='20px' viewBox='0 0 24 24' fill='none' stroke='rgb(80, 73, 69)' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10.5' cy='10.5' r='7.5' vector-effect='non-scaling-stroke'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='15.8' y2='15.8' vector-effect='non-scaling-stroke'%3E%3C/line%3E%3C/svg%3E");
+
+    --heading-h2-margin: 1.5rem 0 1.0rem;
+    --heading-h2-padding: auto;
+    /* --heading-h2-border-style: none; */
+
+    --table-cell-border-width: thin;
+    --table-cell-border-color: var(--bg1);
+    --table-cell-padding: 0.25em 0.5em;
+}
+
+.sidebar .search .clear-button svg {
+    transform: scale(1) translateY(35%);
+}
+
+.markdown-section table {
+    min-width: 80%;
+    table-layout: auto;
+    display: table;
+}
+
+.markdown-section figure, .markdown-section p, .markdown-section ol, .markdown-section ul {
+    margin: 0.5em 0;
+}
+
+thead th:empty {
+    border: thin solid red !important;
+    display: none;
+}
+
+thead th {
+    border: var(--table-cell-border-width) solid var(--table-cell-border-color);
+}
+
