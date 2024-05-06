@@ -74,8 +74,8 @@ Color can be converted directly to [[Vector|Vector4]] as such <code>{@k vec4} v 
 | [[Color]] | [[Color]] | =, +=, -=, *=, /=, %= | Performs operation for each component in place (`a.r += b.r`...) |
 | [[Color]] | Number | =, +=, -=, *=, /=, %= | Performs operation for each component in place (`a.r += b`...) |
 | [[Color]] | {@k bool} | cast() | Allows casting to boolean value. Ignores alpha. False value is close to <code>{@k col}({@n 0.0f}, {@n 1.0f})</code>
-| [[Color]] | [[Vector]] | cast() | Allows casting to vector of length 3 or 4 where vector type is floating point. Values are unchanged |
-| [[Color]] | [[Vector]] | cast() | Allows casting to vector of length 3 or 4 where vector type is whole number. Values are converted to their 8 bit counterparts |
+| [[Color]] | [[Vector]] | cast() | Allows casting to vector of size 3 or 4 where vector type is floating point. Values are unchanged |
+| [[Color]] | [[Vector]] | cast() | Allows casting to vector of size 3 or 4 where vector type is whole number. Values are converted to their 8 bit counterparts |
 
 ## Property Descriptions
 
