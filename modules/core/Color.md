@@ -2,6 +2,8 @@
 
 ## Description
 
+Import with <code>{@k import} sily.color;</code>
+
 A color represented in RGBA format. Each component is a {@k float} value normally ranging from {@n 0.0f} to {@n 1.0f}.
 
 Access to components can be achieved by GLSL-style access with `rgba` letters in any order or length. I.e `c.r`, `c.g`, `c.b` and `c.a` will return respective components, `c.bra` will return array of `[Blue, Red, Alpha]` components.

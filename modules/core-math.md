@@ -2,10 +2,10 @@
 
 Game development oriented math
 
-* [color](modules/core/color.md) - Color container
-* [math](modules/core/math.md) - Templated math
-* [matrix](modules/core/matrix.md) - Templated matrix
-* [quat](modules/core/quat.md) - Quaternion
-* [random](modules/core/random.md) - std.random wrapper
-* [vector](modules/core/vector.md) - Templated math vector
+* [color](modules/core/module-color.md) - Color container
+* [math](modules/core/module-math.md) - Templated math
+* [matrix](modules/core/module-matrix.md) - Templated matrix
+* [quat](modules/core/module-quat.md) - Quaternion
+* [Random](modules/core/Random.md) - std.random wrapper
+* [vector](modules/core/module-vector.md) - Templated math vector
 

@@ -24,9 +24,6 @@ Flexible vector template with some math utils.
 | [[Vector]]!({@k uint}, {@n 3})                | uvec3    | GLSL style alias to uint vector 3 |
 | [[Vector]]!({@k uint}, {@n 4})                | uvec4    | GLSL style alias to uint vector 4 |
 
-## Structs
-- [[Vector]] - Vector structure with data accesible with <code>[{@t N}]</code> or swizzling 
-
 ## Templates
 | Name                               | Description |
 | ---                                | --- |
@@ -34,4 +31,7 @@ Flexible vector template with some math utils.
 | {@f isVector}(V, {@k size_t} n)    | Returns true if `V` is a vector of `n` size and any type |
 | {@f isVector}(V, T)                | Returns true if `V` is a vector of any size and `T` type |
 | {@f isVector}(V, T, {@k size_t} n) | Returns true if `V` is a vector of `n` size and `T` type |
+
+## Structs
+- [[Vector]] - Vector structure with data accesible with <code>[{@t N}]</code> or swizzling 
 

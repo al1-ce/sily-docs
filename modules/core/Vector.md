@@ -2,6 +2,8 @@
 
 ## Description
 
+Import with <code>{@k import} sily.vector;</code>
+
 Vector structure with data accesible with <code>[{@t N}]</code> or swizzling.
 
 Vectors are instantiated as <code>{@k Vector}!({@t T}, {@t N})</code> where {@t T} is vector type and {@t N} is vector size.

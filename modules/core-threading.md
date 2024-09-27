@@ -2,7 +2,7 @@
 
 Asynchronous code execution
 
-* [promise](modules/core/promise.md) - JS-like Promise
-* [timer](modules/core/timer.md) - JS-like Timer
-* [thread](modules/core/thread.md) - JS-like async-await
+* [promise](modules/core/module-promise.md) - JS-like Promise
+* [timer](modules/core/module-timer.md) - JS-like Timer
+* [thread](modules/core/module-thread.md) - JS-like async-await
 
